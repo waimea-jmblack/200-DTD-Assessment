@@ -1,23 +1,21 @@
-# Demo 200-DTD-Assessment
-Vineyard website that pools all the data to one place
+# Blenheim Vineyard website
 
-## Purpose 
+This is my Level 2 NCEA project for Digital Technologies
 
-This Project is a system that allows to users to pool all data from multiple websites into one.
+![Example Image](images/wine.png)
 
-## Features
+It is a database-connected website that allows users to:
 
--Allows users to browse...
--Allows users to add...
+- Feature 1 here
+- Feature 2 here
+- Feature 3 here
+- Feature 4 here
+- Feature 5 here
 
-## System design
 
-All of the initial design for the system can be found
-[here](Design.md)
+## Documentation
 
-Testing of the features and further design revisions can be found 
-[here](Testing.md)
+The following documents support this project:
 
-## Project Mascot
-
-![alt text](images/wine-stain-1.png)
+- [Design & Review](Design.md)
+- [Development & Testing](Development.md)
