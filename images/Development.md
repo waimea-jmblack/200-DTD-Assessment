@@ -18,7 +18,6 @@ In DrawSQL, I am working on V1 the wire frame for the Vineyard Website
 I am working on creating a layout for the website. This will be done by having the home page as the hub to get to various parts of the website. 
 This is my first version of the wire frame without any input by the end user.
 ![Flow Chart Excalidraw](images/Flow1.png)
-![Flow Chart V2](images/Flow2.png)
 
 ### DATE HERE
 
