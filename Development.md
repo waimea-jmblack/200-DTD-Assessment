@@ -1,8 +1,8 @@
 # Development of a Database-Linked Website for NCEA Level 2
 
-Project Name: **PROJECT NAME HERE**
+Project Name: **Blenheim Vineyards Management  **
 
-Project Author: **YOUR NAME HERE**
+Project Author: **James Black**
 
 Assessment Standards: **91892** and **91893**
 
@@ -13,15 +13,27 @@ Assessment Standards: **91892** and **91893**
 
 ### 16/05/2024
 
-In DrawSQL, I am working on V1 the wire frame for the Vineyard Website  
+In DrawSQL, I am working on V1 the wire frame for the Vineyard Website   
+
+A couple of days ago, my end-user sent me a list of a couples of websites that he uses and wants to be included on the website as he wants to pool websites together as well as have a place to store his data. 
+
+List of websites i have gotten thus far... 
+
+Wyebrook Estate Weather Station 
+Fruition Horticulture 
+Hydro Marlborough/Irrigation 
+
 
 I am working on creating a layout for the website. This will be done by having the home page as the hub to get to various parts of the website.  
 Flow chart one is my first version of the wire frame without any input by the end user. 
 
 ![Flow Chart Excalidraw](images/Flow1.png) 
-![Flow Chart V2](images/Flow2.png) 
 
 Flow chart two is my revamped design of flow chart one. I did this because i wanted to make sure I have a thought-out design, before I show this to my end user to get their honest feedback. 
+
+![Flow Chart V2](images/Flow2.png) 
+
+
 
 ### DATE HERE
 

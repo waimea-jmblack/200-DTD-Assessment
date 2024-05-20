@@ -2,8 +2,6 @@
 
 This is my Level 2 NCEA project for Digital Technologies
 
-![Example Image](images/wine.png)
-
 It is a database-connected website that allows users to:
 
 - Feature 1 here
