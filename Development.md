@@ -13,12 +13,15 @@ Assessment Standards: **91892** and **91893**
 
 ### 16/05/2024
 
-In DrawSQL, I am working on V1 the wire frame for the Vineyard Website 
+In DrawSQL, I am working on V1 the wire frame for the Vineyard Website  
 
-I am working on creating a layout for the website. This will be done by having the home page as the hub to get to various parts of the website. 
-This is my first version of the wire frame without any input by the end user.
-![Flow Chart Excalidraw](images/Flow1.png)
-![Flow Chart V2](images/Flow2.png)
+I am working on creating a layout for the website. This will be done by having the home page as the hub to get to various parts of the website.  
+Flow chart one is my first version of the wire frame without any input by the end user. 
+
+![Flow Chart Excalidraw](images/Flow1.png) 
+![Flow Chart V2](images/Flow2.png) 
+
+Flow chart two is my revamped design of flow chart one. I did this because i wanted to make sure I have a thought-out design, before I show this to my end user to get their honest feedback. 
 
 ### DATE HERE
 
