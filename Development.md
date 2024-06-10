@@ -35,17 +35,30 @@ Flow chart two is my revamped design of flow chart one. I did this because i wan
 
 
 
+### 10/06/2024
+
+Today I am working on improving the website colour palette and flow chart based on the end user's feedback 
+The End user wants to have everything on one page instead of having multiple pages. This could be done by having a nav bar at the top part of the page that links down to where the end user wants to be on the page. 
+
+![Flow Chart V3](images/Flow3.png) 
+
+The new design will a one page that you can traverse by either the scroll wheel or the navigation bar for fast travel to certain parts of the page, but the end user can also scroll down to where he wants on the website as well. 
+I have also included an interface for the end user to record the broken posts that are found in the vineyards. 
+This will include the location of which vineyard the broken post is in, what row in said vineyard and a tally counter that will tally how many broken posts there are in total for each vineyard.
+
+Version One of the UI Figma has the selected colour palette that the end user has chosen but is not up to date with the end users' requirements of wanting everything on one page. The Version One design also does not include the list and form for marking down the locations for each broken post. 
+
+
+![Version One UI](images/UiFigma1.png)
+
+ 
 ### DATE HERE
 
 Replace this test with what you are working on
 
 Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
-### DATE HERE
-
-Replace this test with what you are working on
-
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![DataBASE V1](images/Database1.png)
 
 ### DATE HERE
 
