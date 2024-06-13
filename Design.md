@@ -20,11 +20,11 @@ The main underlying problem that the end user has is that they must go through a
 
 ### End-User Requirements
 
-
+For my project/ app that I am designing for my end user that will help him in his day-to-day life whilst working on the vineyard, I need to take my end users thoughts and ideas on the project, heavily into consideration. With all this I am mind, the end user wants me to create an app that can be used regularly on his phone. This app will consist of having Iframes that will grant him quick access to different website across the internet. The end user would also like to include a broken post sighting system. This sighting system will let the end user fill out a form that will ask them a few questions about where they saw the broken post, then will format that sighting into a list that will tell him where all the post that need fixing are.  
 
 ### Proposed Solution
 
-Replace this text with a brief statement about the system that you intend to create, including the key functionality it should have.
+I intend to create an app that can be accessed by phone and computer (But intend for phone). This app will be used for tracking the weather, acidity of the soil, irrigation watering and pooling sightings of broken posts into one area so that the end user can know where every broken post in both vineyards are located, whilst also informing the end user about other key details, I.e., Cost, priority and more. The key functionality of this website is to make the end users life less demanding throughout the day. 
 
 
 -------------------------------------------------

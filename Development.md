@@ -48,15 +48,12 @@ This will include the location of which vineyard the broken post is in, what row
 
 Version One of the UI Figma has the selected colour palette that the end user has chosen but is not up to date with the end users' requirements of wanting everything on one page. The Version One design also does not include the list and form for marking down the locations for each broken post. 
 
-
 ![Version One UI](images/UiFigma1.png)
 
  
-### DATE HERE
+### 13/06/2024
 
-Replace this test with what you are working on
-
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Over the past couple of days, I have been working on improving the feedback that I have been given by the teacher and the end user whom of which decides what will go on the website and what will not.  I need to have created a database that can store information in, and the end user could add and take away information that is in the database. I also worked on the fixing the end user requirements and the proposed solution. This is because i forgot to fill them in, so I went back and finished those and now I am fleshing out my relevant implications as they are a bit bare. 
 
 ![DataBASE V1](images/Database1.png)
 
