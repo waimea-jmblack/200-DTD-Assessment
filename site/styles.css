@@ -39,7 +39,10 @@ nav {
 }
 
 nav a {
-    color: rgb(213, 220, 246);
+    color: rgb(242, 250, 224); /*Colour of fonts in nav, ie Home, About*/
+    font-size: x-large;
+    font-weight: 700;
+    
 }
 
 form {
