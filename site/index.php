@@ -6,7 +6,7 @@
 $db = connectToDB();
 
 //Setup a queary to get all company info
-$query = 'SELECT * FROM Broken Post Sighting';
+$query = 'SELECT * FROM jmblack_BPdatabase';
 
 //Attempt to run the query
 try {
@@ -22,5 +22,8 @@ catch (PDOException $e) {
 consoleLog($BrokenPostSighting);
 
 ?>
+
+<h1>Title</h1>
+<h2>Header</h2>
 
 <?php include 'partials/common-bottom.php';
