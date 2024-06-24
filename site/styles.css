@@ -6,7 +6,7 @@ html {
 /*Background*/
 
 body {
-    background-color: rgb(white); /*Background  colour*/
+    background-color: rgb(black); /*Background  colour*/
     margin: 0;
 }
 
@@ -31,6 +31,17 @@ header {
 }
 header h1 {
     margin: 0;
+    color: rgb(213, 220, 246); /*Colour of Title*/
+}
+
+h1 {
+    margin: 0;
+    color: rgb(213, 220, 246); /*Colour of Main Text*/
+}
+
+h2 {
+    margin: 1;
+    color: rgb(213, 220, 246); /*Colour of Sub Text*/
 }
 
 nav {
@@ -39,7 +50,7 @@ nav {
 }
 
 nav a {
-    color: rgb(242, 250, 224); /*Colour of fonts in nav, ie Home, About*/
+    color: rgb(213, 220, 246); /*Colour of fonts in nav, ie Home, About*/
     font-size: x-large;
     font-weight: 700;
     
