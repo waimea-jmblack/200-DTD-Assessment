@@ -12,9 +12,10 @@
         <h1>Vineyard Management Site</h1>
 
         <nav>
-            <a href="index.php">Home</a>
-            <a href="about.php">About</a>
-            <a href="about.php"> location</a>
+            <a href="top">Top</a>
+            <a href="weather">Weather</a>
+            <a href="welfare"> Welfare</a>
         </nav>
 </header>
             
+

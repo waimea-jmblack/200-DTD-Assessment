@@ -3,14 +3,14 @@ html {
     font-size: 25px;
 }
 
-/*Background*/
+/*Background*****************************************************************************/
 
 body {
-    background-color: rgb(black); /*Background  colour*/
+    background-color: black; /*Background  colour*/
     margin: 0;
 }
 
-/* Header */
+/* Header********************************************************************************/
 
 header {
     display: flex;
@@ -22,27 +22,6 @@ header {
     margin-bottom: 2rem; /*Space between header and start of the website*/
 }
 
-#forms {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    margin-bottom: 2rem;
-}
-header h1 {
-    margin: 0;
-    color: rgb(213, 220, 246); /*Colour of Title*/
-}
-
-h1 {
-    margin: 0;
-    color: rgb(213, 220, 246); /*Colour of Main Text*/
-}
-
-h2 {
-    margin: 1;
-    color: rgb(213, 220, 246); /*Colour of Sub Text*/
-}
 
 nav {
     display: flex;
@@ -56,35 +35,72 @@ nav a {
     
 }
 
-form {
-    border: 4px solid black;
-    padding: 1rem;
-    background-color: rgb(119, 183, 199);
+h1 {
+    margin: 0;
+    color: rgb(213, 220, 246); /*Colour of Main Text*/
 }
 
-form h2 {
-    margin-top: 0;
-    color: antiquewhite;
+h2 {
+    margin: 1;
+    color: rgb(213, 220, 246); /*Colour of Sub Text*/
 }
 
-label {
-    display: block;
-    margin-top: 0.7rem;
+/***************************************************************************************/
+
+:root {
+    --back-col-dark: black;
+    --back-col:      rgb(38, 114, 19);
+    --border-col:    rgb(31, 175, 29);
 }
 
-input {
-    display: block;
-    font-size: inherit;
+/* MAIN HEADER**************************************************************************/
+
+header {
+    border-bottom: 1px solid rgb(31, 175, 29);
+    margin-bottom: 2rem;
+    background-color: rgb(38, 114, 19);
 }
 
-input[type=submit] {
-    margin-top: 1rem;
-    background-color: rgb(19, 87, 105);
-    border: none;
-    padding: 0.5rem;
+@media screen and (min-width: 40rem) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
-label {
+header > * {
+    margin: 0;
+}
+
+
+/* MAIN CONTENT*************************************************************************/
+
+main {
+    max-width: 50rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section {
     display: flex;
-    gap: 0.3rem
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+article {
+    background-color: rgb(38, 114, 19);
+    border: 1px solid rgb(31, 175, 29);
+    width: 100%;
+    max-width: 20rem;
+}
+
+
+/* MAIN FOOTER***************************************************************************/
+
+footer {
+    margin-top: 2rem;
+    border-top: 1px solid rgb(31, 175, 29);
+    background-color: rgb(38, 114, 19);
 }
