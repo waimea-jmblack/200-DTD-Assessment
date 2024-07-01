@@ -12,16 +12,6 @@ body {
 
 /* Header********************************************************************************/
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: rgb(38, 114, 19); /*Colour of navigation tab/ header*/
-    border-bottom: 2px solid rgb(31, 175, 29); /*Border Line between header and navigation*/
-    margin-bottom: 2rem; /*Space between header and start of the website*/
-}
-
 
 nav {
     display: flex;
@@ -30,35 +20,51 @@ nav {
 
 nav a {
     color: rgb(213, 220, 246); /*Colour of fonts in nav, ie Home, About*/
-    font-size: x-large;
-    font-weight: 700;
+    font-size: medium; /*Size of font for nav, ie Home, About*/
+    font-weight: 700; /*Boldness of text*/
     
 }
 
 h1 {
-    margin: 0;
+    margin: 1;
     color: rgb(213, 220, 246); /*Colour of Main Text*/
+    font-size: x-large;
 }
 
 h2 {
     margin: 1;
+    color: rgb(213, 220, 246); /*Colour of Main Text*/
+    font-size: small;
+}
+
+h3 {
+    margin: 1;
     color: rgb(213, 220, 246); /*Colour of Sub Text*/
+    font-size: medium;
+}
+
+p {
+    margin: 1;
+    color: rgb(213, 220, 246); /*Colour of Main Text*/
+    font-size: small;
+    font-weight: 700; 
 }
 
 /***************************************************************************************/
 
 :root {
-    --back-col-dark: black;
-    --back-col:      rgb(38, 114, 19);
-    --border-col:    rgb(31, 175, 29);
+
+    background-color: rgb(38, 114, 19);
+    border-color: rgb(31, 175, 29);
 }
 
 /* MAIN HEADER**************************************************************************/
 
 header {
     border-bottom: 1px solid rgb(31, 175, 29);
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     background-color: rgb(38, 114, 19);
+
 }
 
 @media screen and (min-width: 40rem) {
