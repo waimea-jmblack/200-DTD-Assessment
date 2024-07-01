@@ -28,28 +28,43 @@ consoleLog($posts);
 
 ?>
 
-<h3>Hi Dad, this is your website/app</h3>
-<h3>This app can be used for your Weather, Soil acidity, Irrigation and keeping track of your Broken Posts</h3>
+<h2>Hi Dad, this is your website/app</h2>
+<p>This app can be used for your Weather, Soil acidity, Irrigation and keeping track of your Broken Posts</p>
 
 
 <h2>Simple Mobile-First Responsive Site</h2>
 
 <p>This is a simple, responsive site that uses minimal CSS to achieve reasonable layout on both mobile and desktop devices...</p>
 
-<section id="top">
-
-    <main>
-        <h2>Simple Mobile-First Responsive Site</h2>
-
-        <p>This is a simple, responsive site that uses minimal CSS to achieve reasonable layout on both mobile and desktop devices...</p>
 
         <section>
             <article>
                 <h3>Some Stuff</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Et netus et malesuada fames ac turpis egestas. Tellus at urna condimentum mattis pellentesque id nibh tortor. </p>
             </article>
-       
         </section>
 
-    </main>
+        <section>
+            <article>
+                <h3>Some Stuff</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Et netus et malesuada fames ac turpis egestas. Tellus at urna condimentum mattis pellentesque id nibh tortor. </p>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h3>Some Stuff</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Et netus et malesuada fames ac turpis egestas. Tellus at urna condimentum mattis pellentesque id nibh tortor. </p>
+            </article>
+        </section>
+
+
+
+
+    <div id="add-button">
+        <a href="form-company.php">
+            +
+        </a>
+    </div>
+
 <?php include 'partials/bottom.php';
