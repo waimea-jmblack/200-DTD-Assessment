@@ -57,11 +57,17 @@ Over the past couple of days, I have been working on improving the feedback that
 
 ![DataBASE V1](images/Database1.png)
 
-### 20/06/2024
+### 4/07/2024
 
-Replace this test with what you are working on
+In the large gap of time from the last development log to now, I have been working on improving the end-user's website.  
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+I first started by working on fleshing out the main parts of the website. Taking into consideration the end-users needs and feedback as they are the target audience. This can be seen in one of the features they want me to incorporate. 
+
+This feature is to have all the information and usage be on a singular page. to make this a better experience I added fast travel/ navigation port on the top part of the page. This, both keeps to the end users' conditions whilst also optimising the end users experience. This is because instead of having the navigation bar linking to different pages, this navigation bar will link to various parts of the singular home page. This will optimise the users experience as it will make it a quicker route to find what they want, in the fastest possible time. 
+
+ 
+
+ 
 
 ### DATE HERE
 

@@ -3,7 +3,7 @@
     include 'partials/top.php'; 
 ?>
 
-<h2>Broken Post Sighting</h2>
+<h1>Broken Post Sighting</h1>
 
 <form>
 
@@ -20,7 +20,12 @@
     <input name="row" type="text" placeholder="e.g. 123" required>
 
     <label>Priority</label>
-    <input name="salary" type="text" placeholder="e.g. 150000" required>
+    <input name="priority"
+        type="int"
+        placeholder="e.g 1-5"
+        maxlength=1"
+        required>
+
 
     <input type="submit" value="Add">
 

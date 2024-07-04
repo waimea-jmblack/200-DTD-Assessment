@@ -10,8 +10,8 @@ include 'partials/top.php';
 //Connect to database
 $db = connectToDB();
 
-//Setup a queary to get all company info
-$query = 'SELECT * FROM posts';
+//Setup a queary to get all todo list info
+$query = 'SELECT * FROM posts ORDER BY priority DESC';
 
 //Attempt to run the query
 try {
@@ -60,9 +60,49 @@ consoleLog($posts);
 
 
 
+<h2>Weather</h2>
+
+<?php
+
+/***************************************************************************** */
+
+foreach ($posts as $post) {
+    echo '<li>';
+
+    echo '<span class="priority p' . $post['priority'] . '">';
+    echo    $post['priority'];
+    echo '</span>';
+
+    /*echo '<a class="name" href="view-task.php?id=' . $post['id'] . '">';
+    echo    $post['name'];
+    echo '</a>';*/
+
+
+    echo '<a href= "delete-task.php?id=' . $post['id'] . '"
+             onclick="return confirm(`Are you sure?`);">';
+    echo    '🗑️';
+    echo '</a>';
+
+
+
+    if ($task['completed']) {
+        echo   '<a class="done"
+                    href="task-undone.php?id=' . $post['id'] . '">🗹</a>';
+    }
+    else{
+        echo   '<a class="not-done"
+                    href="task-done.php?id=' . $post['id'] . '">☐</a>';
+    }
+
+    echo '</li>';
+}
+
+/**************************************************************************** */
+
+?>
 
     <div id="add-button">
-        <a href="form-company.php">
+        <a href="form-post.php">
             +
         </a>
     </div>
