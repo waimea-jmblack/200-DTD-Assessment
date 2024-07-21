@@ -11,20 +11,20 @@ include 'partials/top.php';
 $db = connectToDB();
 
 //Setup a queary to get all todo list info
-$query = 'SELECT * FROM posts ORDER BY priority DESC';
+$query = 'SELECT * FROM tasks WHERE completed=0 ORDER BY priority DESC';
 
 //Attempt to run the query
 try {
     $stmt = $db->prepare($query);
     $stmt->execute();
-    $posts = $stmt->fetchAll();
+    $tasks = $stmt->fetchAll();
 }
 catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB List Fetch',ERROR);
     die('There was an error getting data from the database');
 }
 
-consoleLog($posts);
+consoleLog($tasks);
 
 ?>
 
@@ -62,15 +62,20 @@ consoleLog($posts);
 
 <h2>Weather</h2>
 
+
 <?php
 
 /***************************************************************************** */
 
-foreach ($posts as $post) {
+foreach ($tasks as $task) {
     echo '<li>';
 
-    echo '<span class="priority p' . $post['priority'] . '">';
-    echo    $post['priority'];
+    echo '<span class="priority p' . $task['priority'] . '">';
+    echo    $task['priority'];
+    echo    $task['vineyard'];
+    echo    $task['row'];
+    echo    $task['post'];
+    
     echo '</span>';
 
     /*echo '<a class="name" href="view-task.php?id=' . $post['id'] . '">';
@@ -78,20 +83,20 @@ foreach ($posts as $post) {
     echo '</a>';*/
 
 
-    echo '<a href= "delete-task.php?id=' . $post['id'] . '"
+    /*echo '<a href= "delete-task.php?id=' . $task['id'] . '"
              onclick="return confirm(`Are you sure?`);">';
     echo    '🗑️';
-    echo '</a>';
+    echo '</a>';*/
 
 
 
     if ($task['completed']) {
         echo   '<a class="done"
-                    href="task-undone.php?id=' . $post['id'] . '">🗹</a>';
+                    href="task-undone.php?id=' . $task['id'] . '">🗹</a>';
     }
     else{
         echo   '<a class="not-done"
-                    href="task-done.php?id=' . $post['id'] . '">☐</a>';
+                    href="task-done.php?id=' . $task['id'] . '">☐</a>';
     }
 
     echo '</li>';

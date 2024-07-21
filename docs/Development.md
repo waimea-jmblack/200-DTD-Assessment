@@ -65,6 +65,8 @@ I first started by working on fleshing out the main parts of the website. Taking
 
 This feature is to have all the information and usage be on a singular page. to make this a better experience I added fast travel/ navigation port on the top part of the page. This, both keeps to the end users' conditions whilst also optimising the end users experience. This is because instead of having the navigation bar linking to different pages, this navigation bar will link to various parts of the singular home page. This will optimise the users experience as it will make it a quicker route to find what they want, in the fastest possible time. 
 
+I have also been working on a data base for what posts need to be removed from the end users vineyards. I called this tasks, as 
+
  
 
  
