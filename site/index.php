@@ -62,8 +62,26 @@ consoleLog($tasks);
 
 <h2>Weather</h2>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecasts</title>
+</head>
+
+    <h2>Weather Forecast from metservice.co.nz</h2>
+    <iframe src="https://www.metservice.com/towns-cities/locations/blenheim" width="100%" height="600px" frameborder="0"></iframe>
+
+    <h2>Weather Forecast from weatherwatch.co.nz</h2>
+    <iframe src="https://www.weatherwatch.co.nz/forecasts/Blenheim" width="100%" height="600px" frameborder="0"></iframe>
+
+</html>
 
 <?php
+
+
+echo '<ul id="todo-list">';
 
 /***************************************************************************** */
 

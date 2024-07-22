@@ -57,18 +57,25 @@ Over the past couple of days, I have been working on improving the feedback that
 
 ![DataBASE V1](images/Database1.png)
 
-### 4/07/2024
+### 4/07/2024 to 23/07/2024
 
 In the large gap of time from the last development log to now, I have been working on improving the end-user's website.  
 
-I first started by working on fleshing out the main parts of the website. Taking into consideration the end-users needs and feedback as they are the target audience. This can be seen in one of the features they want me to incorporate. 
+I first started by working on fleshing out the main parts of the website. Taking into consideration the end-users needs and feedback as they are the target audience. This can be seen in one of the features they want me to incorporate.  
 
-This feature is to have all the information and usage be on a singular page. to make this a better experience I added fast travel/ navigation port on the top part of the page. This, both keeps to the end users' conditions whilst also optimising the end users experience. This is because instead of having the navigation bar linking to different pages, this navigation bar will link to various parts of the singular home page. This will optimise the users experience as it will make it a quicker route to find what they want, in the fastest possible time. 
+This feature is to have all the information and usage be on a singular page. to make this a better experience I added fast travel/ navigation port on the top part of the page. This, both keeps to the end users' conditions whilst also optimising the end users experience. This is because instead of having the navigation bar linking to different pages, this navigation bar will link to various parts of the singular home page. This will optimise the users experience as it will make it a quicker route to find what they want, in the fastest possible time.  
 
-I have also been working on a data base for what posts need to be removed from the end users vineyards. I called this tasks, as 
+There has also been a large amount of progress that has been done to adding the weather iframes to the website. 
 
- 
+So far, I have added two Iframes to the website (Weather watch and Met service). But i came across a problem when making an Iframe for the Yr. weather station. This is because the Yr. weather station does not allow the website to become an Iframe. 
 
+I have also been working on the layout of the website, as the end user has specifically stated that he will be using his phone 90 percent of the time to view the website. But he will also sometimes be using a computer to view the website, so I also have to keep that in mind whilst making the website/ app. 
+
+![Weather Image](images/Weatherimg.png)
+______________________________________________________________________________________________________________________
+![Navigaion](image.png)
+______________________________________________________________________________________________________________________
+![Layout](image-1.png)
  
 
 ### DATE HERE

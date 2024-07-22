@@ -105,6 +105,39 @@ article {
     font-size: 32.5px;
 }
 
+/* LISTS ****************************************************/
+
+
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    width: max-content;
+    margin: 5rem auto;
+}
+
+
+#todo-list li { /*For the tasks*/
+    margin-bottom: 0.5rem; /*Gap between tasks*/
+    display: flex; /*adds a gap between everything*/
+    width: 110%; /*how long the task bar is*/
+    gap: 1rem; /*Gap between the sentances*/
+    background-color: rgb(31, 175, 29); /*The colour*/
+    border-radius: 0.4rem; /*Makes the list cylinderical*/
+}
+
+
+#todo-list li a {
+    display: block;
+    padding: 0.2rem 0.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+#todo-list li:hover {
+    background-color: orangered;
+}
+
 
 /* MAIN FOOTER***************************************************************************/
 
