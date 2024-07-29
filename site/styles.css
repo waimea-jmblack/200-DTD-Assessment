@@ -83,6 +83,10 @@ article {
     max-width: 20rem;
 }
 
+section#weather {
+    flex-direction: column;
+}
+
 /*ADD*BUTTON**************************************************/
 
 #add-button {
@@ -120,10 +124,12 @@ article {
 #todo-list li { /*For the tasks*/
     margin-bottom: 0.5rem; /*Gap between tasks*/
     display: flex; /*adds a gap between everything*/
-    width: 110%; /*how long the task bar is*/
-    gap: 1rem; /*Gap between the sentances*/
+    width: 210%; /*how long the task bar is*/
+    gap: 0.5rem; /*Gap between the sentances*/
     background-color: rgb(31, 175, 29); /*The colour*/
     border-radius: 0.4rem; /*Makes the list cylinderical*/
+    align-items: center; /*Numbers are in center of box*/
+
 }
 
 

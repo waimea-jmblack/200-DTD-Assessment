@@ -32,9 +32,9 @@ consoleLog($tasks);
 <p>This app can be used for your Weather, Soil acidity, Irrigation and keeping track of your Broken Posts</p>
 
 
-<h2>Simple Mobile-First Responsive Site</h2>
+<h2>Hope This website is helpful for you vineyard work</h2>
 
-<p>This is a simple, responsive site that uses minimal CSS to achieve reasonable layout on both mobile and desktop devices...</p>
+<p>I trust that this website/application will prove to be an invaluable resource for your daily vineyard operations. I am sincerely grateful for the opportunity to engage in a collaborative partnership with a respected colleague in the field of duty. 😋 </p>
 
 
         <section>
@@ -42,17 +42,11 @@ consoleLog($tasks);
                 <h3>Some Stuff</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Et netus et malesuada fames ac turpis egestas. Tellus at urna condimentum mattis pellentesque id nibh tortor. </p>
             </article>
-        </section>
-
-        <section>
-            <article>
+             <article>
                 <h3>Some Stuff</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Et netus et malesuada fames ac turpis egestas. Tellus at urna condimentum mattis pellentesque id nibh tortor. </p>
             </article>
-        </section>
-
-        <section>
-            <article>
+             <article>
                 <h3>Some Stuff</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Et netus et malesuada fames ac turpis egestas. Tellus at urna condimentum mattis pellentesque id nibh tortor. </p>
             </article>
@@ -60,28 +54,31 @@ consoleLog($tasks);
 
 
 
-<h2>Weather</h2>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Forecasts</title>
-</head>
-
-    <h2>Weather Forecast from metservice.co.nz</h2>
-    <iframe src="https://www.metservice.com/towns-cities/locations/blenheim" width="100%" height="600px" frameborder="0"></iframe>
-
-    <h2>Weather Forecast from weatherwatch.co.nz</h2>
-    <iframe src="https://www.weatherwatch.co.nz/forecasts/Blenheim" width="100%" height="600px" frameborder="0"></iframe>
-
-</html>
-
-<?php
 
 
-echo '<ul id="todo-list">';
+    <section id="weather">
+        <h1>Weather Section</h1>
+
+        <details>
+            <summary>Weather Forecast from metservice.co.nz</summary>
+            <iframe src="https://www.metservice.com/towns-cities/locations/blenheim" width="100%" height="500px" frameborder="0"></iframe>
+        </details>
+
+        <details>
+            <summary>Weather Forecast from weatherwatch.co.nz</summary>
+            <iframe src="https://www.weatherwatch.co.nz/forecasts/Blenheim" width="100%" height="500px" frameborder="0"></iframe>
+        </details>
+
+        <details>
+            <summary>Weather Forecast from harvest.co.nz</summary>
+            <iframe src="https://kiwirail.harvest.com/?sid=1858" width="100%" height="00px" frameborder="0"></iframe>
+        </details>
+
+    </section>
+
+    <?php
+
+    echo '<ul id="todo-list">';
 
 /***************************************************************************** */
 
