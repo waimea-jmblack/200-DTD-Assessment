@@ -28,19 +28,12 @@ consoleLog($tasks);
 
 ?>
 
-<h2>Hi Dad, this is your website/app</h2>
-<p>This app can be used for your Weather, Soil acidity, Irrigation and keeping track of your Broken Posts</p>
-
-
-<h2>Hope This website is helpful for you vineyard work</h2>
-
-<p>I trust that this website/application will prove to be an invaluable resource for your daily vineyard operations. I am sincerely grateful for the opportunity to engage in a collaborative partnership with a respected colleague in the field of duty. 😋 </p>
-
 
         <section>
             <article>
-                <h3>Some Stuff</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Et netus et malesuada fames ac turpis egestas. Tellus at urna condimentum mattis pellentesque id nibh tortor. </p>
+                <h3>The Website</h3>
+                <p>Hi Dad, this is your website/app. This app can be used for your Weather, Soil acidity, Irrigation and keeping track of your Broken Posts. 
+                    I trust that this website/application will prove to be an invaluable resource for your daily vineyard operations. I am sincerely grateful for the opportunity to engage in a collaborative partnership with a respected colleague in the field of duty. 😋</p>
             </article>
              <article>
                 <h3>Some Stuff</h3>
@@ -71,7 +64,7 @@ consoleLog($tasks);
 
         <details>
             <summary>Weather Forecast from harvest.co.nz</summary>
-            <iframe src="https://kiwirail.harvest.com/?sid=1858" width="100%" height="00px" frameborder="0"></iframe>
+            <iframe src="https://live.harvest.com/?sid=7880" width="100%" height="00px" frameborder="0"></iframe>
         </details>
 
     </section>
@@ -80,7 +73,6 @@ consoleLog($tasks);
 
     echo '<ul id="todo-list">';
 
-/***************************************************************************** */
 
 foreach ($tasks as $task) {
     echo '<li>';
@@ -117,7 +109,6 @@ foreach ($tasks as $task) {
     echo '</li>';
 }
 
-/**************************************************************************** */
 
 ?>
 

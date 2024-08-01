@@ -17,7 +17,7 @@
         <h1>Vineyard Management Site</h1>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="#weather">Weather</a></li>
                 <li><a href="#welfare">Welfare</a></li>
             </ul>
