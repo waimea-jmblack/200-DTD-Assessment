@@ -69,8 +69,9 @@ consoleLog($tasks);
 
     </section>
 
-    <?php
+        <h1>Posts</h1>
 
+    <?php             
     echo '<ul id="todo-list">';
 
 

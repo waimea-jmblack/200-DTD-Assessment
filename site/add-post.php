@@ -2,17 +2,20 @@
 require '_functions.php';
 
 //Get form data
-$priority =  $_POST['priority'];
-$vineyard =  $_POST['vineyard'];
-$row =       $_POST['row'];
-$post =       $_POST['post'];
+$priority = $_POST['priority'];
+$vineyard = $_POST['vineyard'];
+$row =      $_POST['row'];
+$post =     $_POST['post'];
+
+consoleLog($_POST);
+
 
 //Connect to database
 $db = connectToDB();
 
 //Setup a queary to get all company info
-$query = 'INSERT INTO posts
-            (priority, vineyard, row, post)
+$query = 'INSERT INTO tasks
+            (priority, vineyard, `row`, post)
             VALUES (?,?,?,?)';
         
         
@@ -24,7 +27,7 @@ try {
 }
 catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB List Fetch',ERROR);
-    die('There was an error getting data from the database');
+    die('There was an error inserting post into database');
 }
 
 header('location: index.php');

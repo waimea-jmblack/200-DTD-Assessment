@@ -117,21 +117,21 @@ section#weather {
     list-style: none;
     padding: 0;
     width: max-content;
-    margin: 5rem auto;
+    
 }
 
 
 #todo-list li { /*For the tasks*/
-    margin-bottom: 0.5rem; /*Gap between tasks*/
+    margin-bottom: 0.25rem; /*Gap between tasks*/
     display: flex; /*adds a gap between everything*/
     width: 210%; /*how long the task bar is*/
-    gap: 0.5rem; /*Gap between the sentances*/
+    gap: 1rem; /*Gap between the sentances*/
     background-color: rgb(31, 175, 29); /*The colour*/
     border-radius: 0.4rem; /*Makes the list cylinderical*/
     align-items: center; /*Numbers are in center of box*/
+    padding: 0.25rem;
 
 }
-
 
 #todo-list li a {
     display: block;

@@ -49,7 +49,7 @@
 
 <h1>Broken Post Sighting</h1>
 
-<form method="post" action="add-post">
+<form method="post" action="add-post.php">
 
 <label>Priority</label>
     <input name="priority"
@@ -75,7 +75,7 @@
     <input name="row" type="text" placeholder="e.g. 126" required>
 
     <label>Post</label>
-    <input name="row" type="text" placeholder="e.g. 12" required>
+    <input name="post" type="text" placeholder="e.g. 12" required>
 
 
     <input type="submit" value="Add">
