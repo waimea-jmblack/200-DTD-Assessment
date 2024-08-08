@@ -125,7 +125,7 @@ section#weather {
     margin-bottom: 0.25rem; /*Gap between tasks*/
     display: flex; /*adds a gap between everything*/
     width: 210%; /*how long the task bar is*/
-    gap: 1rem; /*Gap between the sentances*/
+    gap: 4rem; /*Gap between the sentances*/
     background-color: rgb(31, 175, 29); /*The colour*/
     border-radius: 0.4rem; /*Makes the list cylinderical*/
     align-items: center; /*Numbers are in center of box*/
