@@ -109,21 +109,26 @@ article {
 
 /* LISTS ****************************************************/
 
+
+
 #todo-list {
     list-style: none;
     padding: 0;
     width: max-content;
+    
 }
 
-#todo-list li {
-    margin-bottom: 0.25rem;
-    display: flex;
-    justify-content: space-between; /* Distributes space between the content and checkbox */
-    align-items: center;
-    width: 300%; /* Adjust width to fit container */
-    background-color: rgb(31, 175, 29);
-    border-radius: 0.4rem;
+
+#todo-list li { /*For the tasks*/
+    margin-bottom: 0.25rem; /*Gap between tasks*/
+    display: flex; /*adds a gap between everything*/
+    width: 210%; /*how long the task bar is*/
+    gap: 4rem; /*Gap between the sentances*/
+    background-color: rgb(31, 175, 29); /*The colour*/
+    border-radius: 0.4rem; /*Makes the list cylinderical*/
+    align-items: center; /*Numbers are in center of box*/
     padding: 0.25rem;
+
 }
 
 #todo-list li a {
@@ -135,10 +140,6 @@ article {
 
 #todo-list li:hover {
     background-color: orangered;
-}
-
-#todo-list input[type="checkbox"] {
-    margin-left: auto; /* Pushes the checkbox to the far right */
 }
 
 

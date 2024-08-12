@@ -49,7 +49,7 @@ consoleLog($tasks);
 
 
 
-        <section id="welfare">
+        <section id="weather">
     <h1>Weather Section</h1>
 
     <details>
@@ -68,7 +68,7 @@ consoleLog($tasks);
     </details>
 </section>
 
-        <h1>Posts</h1>
+    <h1>Posts</h1>
 
 <?php             
     echo '<ul id="todo-list">';
@@ -113,20 +113,16 @@ consoleLog($tasks);
 <section id="welfare">
     <h1>Welfare Section</h1>
 
-    <details>
-        <summary>Weather Forecast from metservice.co.nz</summary>
-        <iframe src="https://www.metservice.com/towns-cities/locations/blenheim" width="100%" height="500px" frameborder="0"></iframe>
-    </details>
+<section>
+    <article>
+        <h3>Fruition Horticulture</h3>
+        <p><a href="https://www.fruition.net.nz/" target="_blank">https://www.fruition.net.nz/</a></p>
+    </article>
 
-    <details>
-        <summary>Weather Forecast from weatherwatch.co.nz</summary>
-        <iframe src="https://www.weatherwatch.co.nz/forecasts/Blenheim" width="100%" height="500px" frameborder="0"></iframe>
-    </details>
-
-    <details>
-        <summary>Weather Forecast from harvest.co.nz</summary>
-        <iframe src="https://live.harvest.com/?sid=7880" width="100%" height="500px" frameborder="0"></iframe>
-    </details>
+    <article>
+        <h3>Hydro Marlborough</h3>
+        <p><a href="https://hydro.marlborough.govt.nz/irrigation/#/" target="_blank">https://hydro.marlborough.govt.nz/irrigation/#/</a></p>
+    </article>
 </section>
 
     <div id="add-button">
