@@ -1,10 +1,9 @@
-/*HEADER**************************************************************************/
-
+/* HEADER ************************************************************************ */
 header {
     border-bottom: 1px solid rgb(31, 175, 29);
     margin-bottom: 1.5rem;
     background-color: rgb(38, 114, 19);
-
+    text-align: center; /* Center-align header content */
 }
 
 @media screen and (min-width: 40rem) {
@@ -19,48 +18,49 @@ header > * {
     margin: 0;
 }
 
-/*NAVIGATION**************************************************************************/
+/* NAVIGATION ************************************************************************ */
 nav {
     display: flex;
     gap: 1rem;
+    justify-content: center; /* Center the navigation links */
 }
 
 nav a {
-    color: rgb(213, 220, 246); /*Colour of fonts in nav, ie Home, About*/
-    font-size: medium; /*Size of font for nav, ie Home, About*/
-    font-weight: 700; /*Boldness of text*/
-    
+    color: rgb(213, 220, 246); /* Colour of fonts in nav */
+    font-size: medium;
+    font-weight: 700;
 }
 
-/*SIZE OF WRITING**************************************************************************/
+
+/* SIZE OF WRITING **************************************************************** */
+h1, h2, h3, p {
+    text-align: center; /* Center-align text for h1, h2, h3, and p */
+}
 
 h1 {
-    margin: 1;
-    color: rgb(213, 220, 246); /*Colour of Main Text*/
+    margin: 1rem 0;
+    color: rgb(213, 220, 246);
     font-size: x-large;
 }
 
 h2 {
-    margin: 1;
-    color: rgb(213, 220, 246); /*Colour of Main Text*/
+    margin: 1rem 0;
+    color: rgb(213, 220, 246);
     font-size: small;
 }
 
 h3 {
-    margin: 1;
-    color: rgb(213, 220, 246); /*Colour of Sub Text*/
+    margin: 1rem 0;
+    color: rgb(213, 220, 246);
     font-size: medium;
 }
 
 p {
-    margin: 1;
-    color: rgb(213, 220, 246); /*Colour of Main Text*/
+    margin: 1rem 0;
+    color: rgb(213, 220, 246);
     font-size: small;
-    font-weight: 700; 
+    font-weight: 700;
 }
-
-
-
 /* MAIN/ BODY*************************************************************************/
 
 main {
@@ -107,11 +107,11 @@ article {
     font-size: 32.5px;
 }
 
-/* LISTS ****************************************************/
-
+/* TODO LISTS ************************************************************************** */
 #todo-list {
     list-style: none;
     padding: 0;
+    margin: 0 auto; /* Center the list */
     width: max-content;
 }
 
@@ -120,7 +120,6 @@ article {
     display: flex;
     justify-content: space-between; /* Distributes space between the content and checkbox */
     align-items: center;
-    width: 300%; /* Adjust width to fit container */
     background-color: rgb(31, 175, 29);
     border-radius: 0.4rem;
     padding: 0.25rem;
@@ -140,7 +139,6 @@ article {
 #todo-list input[type="checkbox"] {
     margin-left: auto; /* Pushes the checkbox to the far right */
 }
-
 
 /* MAIN FOOTER***************************************************************************/
 
