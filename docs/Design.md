@@ -9,6 +9,13 @@ Assessment Standards: **91892** and **91893**
 
 -------------------------------------------------
 
+
+## NOTE ##
+Meant to be viewed as a app on a phone.
+To view, press Ctrl + I at the same time, Then press Ctrl + Shift + M
+
+
+
 ## System Requirements
 
 To gather information about the acidity of the soil, what regions of Blenheim are being irrigated now, client horticulture and the annual grape harvest. With also has a hub that links to weather websites.    
@@ -82,13 +89,15 @@ I need to consider how to turn my website into a downloadable app that can be us
 ## Final System Design
 
 ### Database Structure
-
 Place a image here that shows the *final design* of your database: tables, fields and relationships.
 
 ### User Interface Design
 
-Place images here that show your *final design* of your UI: layout, colours, etc.
-
+![Alt text](image-2.png)
+![Alt text](image-3.png)
+![Alt text](image-4.png)
+![Alt text](image-5.png)
+![Alt text](image-6.png)
 
 -------------------------------------------------
 
@@ -104,24 +113,43 @@ Place screenshots and notes here that show your *actual system UI* in action.
 
 
 -------------------------------------------------
+ 
 
-## Review and Evaluation
+## Review and Evaluation 
 
-### Meeting the Needs of the Users
 
-Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
+### Meeting the Needs of the Users 
 
-### Meeting the System Requirements
 
-Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
+Throughout the creation of the Vineyard management website there have been a lot of needs that had to be met by the end user, I.e., Iframes that link to multiple weather websites, tallying data for broken posts that have been spotted/ found by the end- user, etc. Most of these needs have been have meet the success criteria of the end- user's needs. But there was a major need/want that I could not finish for the end user. This was to develop the website into a mobile app. This a critical for the end user as he will be using their phone for the main form of usage for the website. 
 
-### Review of IMPLICATION NAME HERE
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+### Meeting the System Requirements 
 
-### Review of IMPLICATION NAME HERE
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+The Vineyard Management app met the requirements that the end user has set in place at the start of the website. The website records data from the broken posts that have been seen throughout both vineyards. And pools that data to one place for the end user to see. But the second part of the system requirements were to pool the data and calculate the data and plot it on an annual graph to see the trend. This was not added to the website because it was too technical of a task for me to complete in the period and the expertise that I had at the time. 
+
+ 
+
+### Review of Aesthetics 
+
+For my Aesthetics implication, I had to be very considerate of the colour palettes the end user gives me, this is because the end user will be using the website/ app in the vineyard with the sun glaring on him. This means that we had to pick a dark toned colour palette. So, we went with Black and Green for the palette of choice. This is because the black background with the green accents will make it easier to see the app in the light of day. 
+![Snippet of colour palette](image-2.png)
+ 
+
+### Review of Functionality 
+
+In my functionality implication, my website needed to have this implication to make the website fit the needs of the end user. This was because if the website/ app was not functional for the end user, then the website would be worthless. 
+In the outcome I almost met the full success criteria that the end user had appointed me.  
+I had compiled all their weather websites into iframes for them the easily access, applied the links that will take the end user to the welfare websites and have made a database that can input the broken posts that have been spotted in the vineyards by the end user.  
+![Adding a newly sighted broken post](image-6.png)
+![Links to welfare pages sighted by end user](image-5.png)
+
+
+
+
+
+
 
 ### Review of IMPLICATION NAME HERE
 

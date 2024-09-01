@@ -9,6 +9,11 @@ Assessment Standards: **91892** and **91893**
 
 -------------------------------------------------
 
+## NOTE ##
+Meant to be viewed as a app on a phone.
+To view, press Ctrl + I at the same time, Then press Ctrl + Shift + M
+
+
 ## Design, Development and Testing Log
 
 ### 16/05/2024

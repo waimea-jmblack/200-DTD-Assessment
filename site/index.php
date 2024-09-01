@@ -24,22 +24,21 @@ consoleLog($tasks);
     <article>
         <h3>The Website</h3>
         <p>
-            Hi Dad, this is your website/app. This app can be used for your Weather, Soil acidity, Irrigation, and keeping track of your Broken Posts. 
-            I trust that this website/application will prove to be an invaluable resource for your daily vineyard operations. I am sincerely grateful for the opportunity to engage in a collaborative partnership with a respected colleague in the field of duty. 😋
+        The Vineyard Management Website was built with your needs in mind. To navigate around the website, you can either use the scroll feature or use the navigation bar at the top of the screen. 
         </p>
     </article>
     
     <article>
-        <h3>Some Stuff</h3>
+        <h3>Weather Updates</h3>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames ac turpis egestas. Tellus at urna condimentum mattis pellentesque id nibh tortor.
+        On  the website, you will find real-time weather updates right on the site, so you can easily check the forecast and plan your workday around any weather that might be coming your way
         </p>
     </article>
 
     <article>
-        <h3>Some Stuff</h3>
+        <h3>Vineyard Help</h3>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames ac turpis egestas. Tellus at urna condimentum mattis pellentesque id nibh tortor.
+        The app also lets you quickly report things like broken posts or other vineyard problems, so you can get them fixed up fast and keep everything running smoothly.
         </p>
     </article>
 </section>
@@ -63,23 +62,25 @@ consoleLog($tasks);
     </details>
 </section>
 
+
+
+
 <h1>Posts</h1>
 
 <ul id="todo-list">
     <?php foreach ($tasks as $task): ?>
         <li>
-            <span class="priority p<?php echo $task['priority']; ?>">
-                <?php echo $task['priority']; ?>
-                <?php echo $task['vineyard']; ?>
-                <?php echo $task['row']; ?>
-                <?php echo $task['post']; ?>
+            <span class="priority p<?php echo htmlspecialchars($task['priority']); ?>">
+                <?php echo htmlspecialchars($task['priority']); ?>
+                <?php echo htmlspecialchars($task['vineyard']); ?>
+                <?php echo htmlspecialchars($task['row']); ?>
+                <?php echo htmlspecialchars($task['post']); ?>
             </span>
 
-            <?php if ($task['completed']): ?>
-                <a class="done" href="task-undone.php?id=<?php echo $task['id']; ?>">🗹</a>
-            <?php else: ?>
-                <a class="not-done" href="task-done.php?id=<?php echo $task['id']; ?>">☐</a>
-            <?php endif; ?>
+            <a href="delete-task.php?id=<?php echo htmlspecialchars($task['id']); ?>"
+               onclick="return confirm('Are you sure?');">
+                🗑️
+            </a>
         </li>
     <?php endforeach; ?>
 </ul>
