@@ -83,32 +83,18 @@ ________________________________________________________________________________
 ![Layout](image-1.png)
  
 
-### 6/08/2024
+### 24/10/2024
 
-Replace this test with what you are working on
+The following video shows how to add a post to the list and into the database. This is ordered by Priority, Vineyard, Row then post. This is so that the end user can report a broken post to the website so that they have a list of all the posts and their location. This data is then stored in the database.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+[Video Link](https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/jmblack_waimea_school_nz/EU2IWkRDPeBBiLqpVhgM5GcBW4cHJCYDHAXnAQBBIRKdOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=D2S1JT)
 
-### DATE HERE
+This next video shows how the end user can erase data that has been added into the database by the end user. There is also a query that double checks the end user to see if this act was on purpose or mistake. If this was a purposeful deletion made by the end user, then it will be erased from the website and the database as well.
 
-Replace this test with what you are working on
+[Video Link](https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/jmblack_waimea_school_nz/ERF74-16RixNlascqseNUX4BS-KoOjcpkareDoSDQlNovg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tABWri)
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+The video that has been shared, shows that the links at the top of the page can be used to fast travel to different parts of the website. I.e., If the welfare link is clicked, it will bring you to the welfare section. Even though the home link is not useful when the links are at the top of the page, it has a more important use. This use is for when the end user is inputting a broken post, and changes their mind. Then the home page link is used to exit the addition page for broken posts. Bringing the end user back to the main pages
 
-### DATE HERE
+[Video Link](https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/jmblack_waimea_school_nz/EVZ4eMdFVkxDn0y1JXMnEBwBlcdp4K8UcjZU2fXMG9tUrw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=INiu4k)
 
-Replace this test with what you are working on
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
-
-### DATE HERE
-
-Replace this test with what you are working on
-
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
-
-### DATE HERE
-
-Replace this test with what you are working on
-
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
