@@ -1,39 +1,39 @@
 # Teacher Feedback on Documentation and Other Evidence
 
-> James, you have some holes to fill here. If you leave sections incomplete, you will never get round to doing them and will fail - time to get it all done!
+> James, there is very little evidence in your documentation... 
+> - Designs for page layouts?
+> - Testing of the site actaully work?
 
-> We're five weeks into this project now - should really be up-to-date and there should be evidence of your designs, DB, etc.
+> It's not really possible for me to give you a pass on this with these things missing?
+
+> Do you not have other screenshots of your interface design? Can you not make a quick video of you testing your system?
+
+
 
 
 ## System Requirements	
 
 - [x] **A** Purpose of outcome identified and described, listing specific requirements
-- [ ] **A** End-users identified and described, listing specific requirements
-- [ ] **A** Key functionality that satisfies the purpose and end-user requirements identified
-- [ ] **A** Implications, relevant to purpose and end-users, are described and linked to design of outcome
+- [x] **A** End-users identified and described, listing specific requirements
+- [x] **A** Key functionality that satisfies the purpose and end-user requirements identified
+- [x] **A** Implications, relevant to purpose and end-users, are described and linked to design of outcome
 
-> The end-user section needs to be completed - See the exemplars for what this should contain
-
-> Proposed solution - this needs to be done! See exemplar - should be a list of features / functions the system will have
-
-> The implications need to detail what you must consider whilst you are designing and developing your outcome. You have generally done this, but... 
-> - Functionality - you must make sure every part of the system works (i.e. it is functional)
-> - Usability - This is an essential implication. Please see the exemplar and get into the details of Nielsen's heuristics, etc.
+> Done ok
 
 
 ## Database Structure	
 
-- [ ] **A** Structure of the database is designed (tables, fields, data types, primary keys, relationships, etc.)
+- [x] **A** Structure of the database is designed (tables, fields, data types, primary keys, relationships, etc.)
 - [ ] **M** Structure of the database is logical (i.e. DB is normalised, tables / fields are named logically, etc.)
 
-> Where is your DB design? Should really be done by now
+> The design shown in the docs is not what the final database looked like. I have sighted the final design
 
 
 ## Front-End UI Designs
 
 - [ ] **A** Design for key web pages have been sketched out with supporting notes, etc.
 
-> Comments...
+> Very little evidence of the design process. There are a couple of images of designs in the docs, but they show little of the key pages.
 
 
 ## System Testing
@@ -43,7 +43,7 @@
 - [ ] **A** Functionality has been tested and there is evidence for this (screenshots, etc.)
 - [ ] **M** Testing is thorough (all functionality covered)
 
-> Comments...  
+> There is no real evidence of system testing, showing posts being added to the system, DB being updated, etc.  
 
 ### Code Testing
 
@@ -69,7 +69,7 @@
 
 ## Review and Evaluation
 
-- [ ] **M** Discussion of how the relevant implications were addressed in the implementation of the outcome
+- [x] **M** Discussion of how the relevant implications were addressed in the implementation of the outcome
 
-> Comments...
+> Done ok
 
